@@ -1,0 +1,71 @@
+@use './vars/colors.scss';
+@import './vars/index.scss';
+
+html,
+body {
+	font-family: 'Inter', sans-serif;
+	scroll-behavior: smooth;
+	color: colors.$neutrals-grey-100;
+}
+
+.font-lora {
+	font-family: 'Lora', serif;
+}
+
+.font-roboto-serif {
+	font-family: 'Roboto Serif', serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.v-align-middle {
+	vertical-align: middle;
+}
+
+.align-right {
+	text-align: end;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.mtb-auto {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.hr {
+	border: 0.4px solid colors.$neutrals-grey-20;
+}
+
+.align-super {
+	vertical-align: super;
+}
+
+.show-on-mobile {
+	display: none;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
+@media (max-width: 767px) {
+	.hide-on-mobile {
+		display: none;
+	}
+
+	.show-on-mobile {
+		display: block;
+	}
+}
+
+@media (max-width: 1024px) {
+	.hide-on-tab {
+		display: none;
+	}
+}

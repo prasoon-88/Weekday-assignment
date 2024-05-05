@@ -1,0 +1,26 @@
+$limit: 220;
+$i: 0;
+
+@while $i <= $limit {
+	.m-#{$i} {
+		margin: 1px * $i;
+	}
+
+	.mt-#{$i} {
+		margin-top: 1px * $i !important;
+	}
+
+	.mb-#{$i} {
+		margin-bottom: 1px * $i;
+	}
+
+	.ml-#{$i} {
+		margin-left: 1px * $i;
+	}
+
+	.mr-#{$i} {
+		margin-right: 1px * $i;
+	}
+
+	$i: $i + 1;
+}

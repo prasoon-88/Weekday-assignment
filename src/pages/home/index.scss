@@ -1,0 +1,23 @@
+#home {
+    .filterHead {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 24px;
+        flex-wrap: wrap;
+    }
+
+    .roles,
+    .location {
+        min-width: 150px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 24px;
+        gap: 24px;
+        row-gap: 48px;
+    }
+}

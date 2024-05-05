@@ -1,0 +1,561 @@
+$blue-50-main: #4589FF;
+$blue-60-main: #0F62FE;
+$blue-70-main: #0043CE;
+
+$electric-blue-800: #2196f3;
+$electric-blue-900: #1565c0;
+$electric-blue-700: #64b5f6;
+$electric-blue-600: #4589FF;
+
+$navy-main: #004e9b;
+$emerald-main: #1eb446;
+$gold-main: #e69400;
+$cinnabar-main: #de4b2d;
+
+$alert-success-50: #24A148;
+
+$neutral-cool-500: #212433;
+
+$neutrals-900: #121010;
+$neutrals-800: #272222;
+$neutrals-700: #353130;
+$neutrals-600: #595250;
+$neutrals-500: #8e837f;
+$neutrals-400: #baada9;
+$neutrals-300: #d1c8c5;
+$neutrals-200: #e8e4e2;
+$neutrals-100: #f3f2f2;
+$neutrals-50: #f7f6f5;
+$neutrals-0: #ffffff;
+
+$neutrals-grey-80: #393939;
+$neutrals-grey-50: #8D8D8D;
+$neutrals-grey-100: #161616;
+$neutrals-grey-90: #262626;
+$neutrals-grey-80: #393939;
+$neutrals-grey-70: #525252;
+$neutrals-grey-50: #8D8D8D;
+$neutrals-grey-60: #6F6F6F;
+$neutrals-grey-40: #A8A8A8;
+$neutrals-grey-30: #C6C6C6;
+$neutrals-grey-20: #E0E0E0;
+$neutrals-grey-10: #F4F4F4;
+
+$green-10 : #DEFBE6;
+$green-50-main: #24A148;
+
+$orange-10: #FFF4E5;
+$orange-20: #FFE2BD;
+$orange-50-main: #F18D13;
+
+$red-10: #FFF1F1;
+$red-60-main: #DA1E28;
+
+$blue-10: #EDF5FF;
+$blue-30: #A6C8FF;
+
+$primary-50 : #FFECE5;
+$primary-700 : #AD3307;
+
+
+$neutrals-background: #F4F4F4;
+
+// Alert
+$alert-0: #DA1E28;
+$alert-30: #F1C21B;
+
+$alert-40-warning: #F18D13;
+
+$cinnabar-800-main: #de4b2d;
+
+
+.blue-50-main {
+	color: $blue-50-main;
+}
+
+.electric-blue-900 {
+	color: $electric-blue-900;
+}
+
+.electric-blue-800 {
+	color: $electric-blue-800;
+}
+
+.electric-blue-600 {
+	color: $electric-blue-600;
+}
+
+.electric-blue-700 {
+	color: $electric-blue-700;
+}
+
+.navy-main {
+	color: $navy-main;
+}
+
+.emerald-main {
+	color: $emerald-main;
+}
+
+.gold-main {
+	color: $gold-main;
+}
+
+.cinnabar-main {
+	color: $cinnabar-main;
+}
+
+.neutrals-900 {
+	color: $neutrals-900;
+}
+
+.neutrals-800 {
+	color: $neutrals-800;
+}
+
+.neutrals-700 {
+	color: $neutrals-700;
+}
+
+.neutrals-600 {
+	color: $neutrals-600;
+}
+
+.neutrals-500 {
+	color: $neutrals-500;
+}
+
+.neutrals-400 {
+	color: $neutrals-400;
+}
+
+.neutrals-300 {
+	color: $neutrals-300;
+}
+
+.neutrals-200 {
+	color: $neutrals-200;
+}
+
+.neutrals-100 {
+	color: $neutrals-100;
+}
+
+.neutrals-50 {
+	color: $neutrals-50;
+}
+
+.neutrals-0 {
+	color: $neutrals-0;
+}
+
+.cinnabar-800-main {
+	color: $cinnabar-800-main;
+}
+
+.neutrals-grey-80 {
+	color: $neutrals-grey-80;
+}
+
+.neutrals-grey-50 {
+	color: $neutrals-grey-50;
+}
+
+.neutrals-grey-100 {
+	color: $neutrals-grey-100;
+}
+
+.neutrals-grey-80 {
+	color: $neutrals-grey-80;
+}
+
+.neutrals-grey-70 {
+	color: $neutrals-grey-70;
+}
+
+.neutrals-grey-50 {
+	color: $neutrals-grey-50;
+}
+
+.neutrals-grey-60 {
+	color: $neutrals-grey-60;
+}
+
+.neutrals-grey-40 {
+	color: $neutrals-grey-40;
+}
+
+.neutrals-grey-30 {
+	color: $neutrals-grey-30;
+}
+
+.neutrals-grey-10 {
+	color: $neutrals-grey-10;
+}
+
+
+
+.alert-success-50 {
+	color: $alert-success-50;
+}
+
+.alert-30 {
+	color: $alert-30;
+}
+
+.alert-0 {
+	color: $alert-0;
+}
+
+.alert-40-warning {
+	color: $alert-40-warning;
+}
+
+// Green color codes
+
+.green-10 {
+	color: $green-10;
+}
+
+.green-50-main {
+	color: $green-50-main !important;
+}
+
+
+// Red color codes
+.red-10 {
+	color: $red-10;
+}
+
+.red-60-main {
+	color: $red-60-main;
+}
+
+// Orange color codes
+
+.orange-10 {
+	color: $orange-10;
+}
+
+.orange-20 {
+	color: $orange-20;
+}
+
+.orange-50-main {
+	color: $orange-50-main;
+}
+
+
+// Primary color codes
+
+.primary-50 {
+	color: $primary-50;
+}
+
+.primary-700 {
+	color: $primary-700;
+}
+
+
+
+// Add colors 
+
+
+$electric-blue-800: #2196f3;
+$electric-blue-900: #1565c0;
+$electric-blue-700: #64b5f6;
+
+$navy-main: #004e9b;
+$emerald-main: #1eb446;
+$gold-main: #e69400;
+$cinnabar-main: #de4b2d;
+
+$neutral-cool-500: #212433;
+
+$neutrals-900: #121010;
+$neutrals-800: #272222;
+$neutrals-700: #353130;
+$neutrals-600: #595250;
+$neutrals-500: #8e837f;
+$neutrals-400: #baada9;
+$neutrals-300: #d1c8c5;
+$neutrals-200: #e8e4e2;
+$neutrals-100: #f3f2f2;
+$neutrals-50: #f7f6f5;
+$neutrals-0: #ffffff;
+
+$neutrals-grey-80: #393939;
+$neutrals-grey-60: #6f6f6f;
+$neutrals-grey-70: #525252;
+$neutrals-grey-40: #a8a8a8;
+
+$orange-50-main: #f18d13;
+$green-50-main: #24a148;
+
+$blue-10: #edf5ff;
+$blue-20: #d0e2ff;
+$blue-30: #a6c8ff;
+$blue-40: #78a9ff;
+$blue-50-main: #4589ff;
+$blue-60: #0f62fe;
+$blue-70: #0043ce;
+$blue-80: #002d9c;
+$blue-90: #001d6c;
+$blue-100: #001141;
+$blue: $blue-10,
+	$blue-20,
+	$blue-30,
+	$blue-40,
+	$blue-50-main,
+	$blue-60,
+	$blue-70,
+	$blue-80,
+	$blue-90,
+	$blue-100;
+
+$red-10: #fff1f1;
+$red-20: #ffd7d9;
+$red-30: #ffb3b8;
+$red-40: #ff8389;
+$red-50: #fa4d56;
+$red-60-main: #da1e28;
+$red-70: #a2191f;
+$red-80: #750e13;
+$red-90: #520408;
+$red-100: #2d0709;
+$red: $red-10,
+	$red-20,
+	$red-30,
+	$red-40,
+	$red-50,
+	$red-60-main,
+	$red-70,
+	$red-80,
+	$red-90,
+	$red-100;
+
+$green-10: #defbe6;
+$green-20: #a7f0ba;
+$green-30: #6fdc8c;
+$green-40: #42be65;
+$green-50-main: #24a148;
+$green-60: #198038;
+$green-70: #0e6027;
+$green-80: #044317;
+$green-90: #022d0d;
+$green-100: #071908;
+
+$green: $green-10,
+	$green-20,
+	$green-30,
+	$green-40,
+	$green-50-main,
+	$green-60,
+	$green-70,
+	$green-80,
+	$green-90,
+	$green-100;
+
+$orange-10: #fff4e5;
+$orange-20: #ffe2bd;
+$orange-30: #fec57b;
+$orange-40: #faa53d;
+$orange-50-main: #f18d13;
+$orange-60: #d97008;
+$orange-70: #b65c02;
+$orange-80: #974f0c;
+$orange-90: #5f3811;
+$orange-100: #4a2b0f;
+$orange: $orange-10,
+	$orange-20,
+	$orange-30,
+	$orange-40,
+	$orange-50-main,
+	$orange-60,
+	$orange-70,
+	$orange-80,
+	$orange-90,
+	$orange-100;
+
+$grey-10: #f4f4f4;
+$grey-20: #e0e0e0;
+$grey-30: #c6c6c6;
+$grey-40: #a8a8a8;
+$grey-50: #8d8d8d;
+$grey-60: #6f6f6f;
+$grey-70: #525252;
+$grey-80: #393939;
+$grey-90: #262626;
+$grey-100: #161616;
+$grey: $grey-10,
+	$grey-20,
+	$grey-30,
+	$grey-40,
+	$grey-50,
+	$grey-60,
+	$grey-70,
+	$grey-80,
+	$grey-90,
+	$grey-100;
+
+$alert-30: #f1c21b;
+$alert-40-warning: #ff832b;
+$alert-50-success: #24a148;
+$alert-60-error: #da1e28;
+
+$i: 1;
+$limit: 10;
+
+@while $i <=$limit {
+	$val: $i * 10;
+
+	.red-#{$val} {
+		color: nth($red, $i);
+	}
+
+	.blue-#{$val} {
+		color: nth($blue, $i);
+	}
+
+	.green-#{$val} {
+		color: nth($green, $i);
+	}
+
+	.orange-#{$val} {
+		color: nth($orange, $i);
+	}
+
+	.grey-#{$val} {
+		color: nth($grey, $i);
+	}
+
+	$i: $i+1;
+}
+
+.alert-30 {
+	color: $alert-30;
+}
+
+.alert-warning {
+	color: $alert-40-warning;
+}
+
+.alert-success {
+	color: $alert-50-success;
+}
+
+.alert-error {
+	color: $alert-60-error;
+}
+
+.blue-main {
+	color: $blue-50-main;
+}
+
+.green-main {
+	color: $green-50-main;
+}
+
+.orange-main {
+	color: $orange-50-main;
+}
+
+.red-main {
+	color: $red-60-main;
+}
+
+.electric-blue-900 {
+	color: $electric-blue-900;
+}
+
+.electric-blue-800 {
+	color: $electric-blue-800;
+}
+
+.electric-blue-700 {
+	color: $electric-blue-700;
+}
+
+.navy-main {
+	color: $navy-main;
+}
+
+.emerald-main {
+	color: $emerald-main;
+}
+
+.gold-main {
+	color: $gold-main;
+}
+
+.cinnabar-main {
+	color: $cinnabar-main;
+}
+
+.neutrals-900 {
+	color: $neutrals-900;
+}
+
+.neutrals-800 {
+	color: $neutrals-800;
+}
+
+.neutrals-700 {
+	color: $neutrals-700;
+}
+
+.neutrals-600 {
+	color: $neutrals-600;
+}
+
+.neutrals-500 {
+	color: $neutrals-500;
+}
+
+.neutrals-400 {
+	color: $neutrals-400;
+}
+
+.neutrals-300 {
+	color: $neutrals-300;
+}
+
+.neutrals-200 {
+	color: $neutrals-200;
+}
+
+.neutrals-100 {
+	color: $neutrals-100;
+}
+
+.neutrals-50 {
+	color: $neutrals-50;
+}
+
+.neutrals-0 {
+	color: $neutrals-0;
+}
+
+.neutrals-grey-80 {
+	color: $neutrals-grey-80;
+}
+
+.neutrals-grey-70 {
+	color: $neutrals-grey-70;
+}
+
+.neutrals-grey-60 {
+	color: $neutrals-grey-60;
+}
+
+.neutrals-grey-40 {
+	color: $neutrals-grey-40;
+}
+
+.orange-50-main {
+	color: $orange-50-main;
+}
+
+.green-50-main {
+	color: $green-50-main;
+}

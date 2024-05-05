@@ -1,0 +1,77 @@
+#jobCard {
+    border-radius: 20px;
+    border: 1px solid #dad9d9;
+    padding: 16px 16px 8px 16px;
+    display: grid;
+    gap: 8px;
+    width: 350px;
+    height: 584px;
+
+    .companyDescription {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+
+    }
+
+    .companyLogo {
+        max-width: 40px;
+        max-height: 40px;
+        object-fit: contain;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .companyName {
+        font-size: 14px;
+        font-weight: 600;
+        color: #8b8b8b;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .role {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .location {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .salary {
+        color: rgb(78 90 107);
+    }
+
+    .jobDescription {
+        max-height: 50%;
+        overflow: hidden;
+        position: relative;
+
+        .shade {
+            width: 100%;
+            text-align: center;
+            background: linear-gradient(rgba(255, 255, 255, 0.805) 10%, white 90%);
+            padding: 24px;
+            position: absolute;
+            bottom: -5%;
+            color: #4943da;
+            cursor: pointer;
+        }
+    }
+
+    &:hover {
+        scale: 1.05;
+        cursor: pointer;
+        transition: all ease-in-out 0.3s;
+        box-shadow: 0 0 24px 2px rgba(242, 242, 242, 0.786);
+    }
+
+}

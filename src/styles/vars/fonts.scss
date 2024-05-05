@@ -1,0 +1,62 @@
+$limit: 80;
+$i: 0;
+
+@while $i <= $limit {
+	.fs-#{$i} {
+		font-size: 1px * $i;
+	}
+	$i: $i + 1;
+}
+
+.font-700 {
+	font-weight: 700;
+}
+.font-600 {
+	font-weight: 600;
+}
+.font-500 {
+	font-weight: 500;
+}
+.font-400 {
+	font-weight: 400;
+}
+.font-300 {
+	font-weight: 300;
+}
+.font-200 {
+	font-weight: 200;
+}
+.font-100 {
+	font-weight: 100;
+}
+
+// size conversion at breakpoints
+@media (max-width: 767px) {
+	.fs-60 {
+		font-size: 40px !important;
+	}
+	.lh-68 {
+		line-height: 48px !important;
+	}
+
+	.fs-48 {
+		font-size: 32px !important;
+	}
+	.lh-56 {
+		line-height: 40px !important;
+	}
+
+	.fs-18 {
+		font-size: 16px !important;
+	}
+	.lh-26 {
+		line-height: 22px !important;
+	}
+
+	.fs-40 {
+		font-size: 32px !important;
+	}
+	.lh-56 {
+		line-height: 40px !important;
+	}
+}

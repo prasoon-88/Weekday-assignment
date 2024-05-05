@@ -1,0 +1,9 @@
+$limit: 150;
+$i: 0;
+
+@while $i <= $limit {
+	.lh-#{$i} {
+		line-height: 1px * $i;
+	}
+	$i: $i + 1;
+}
